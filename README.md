@@ -57,7 +57,7 @@ Body (JSON):
 
 Method: DELETE
 URL: http://localhost:3000/admin/grocery/<grocery_id>
-View Available Grocery Items:
+#### View Available Grocery Items:
 
 Method: GET
 URL: http://localhost:3000/user/grocery
