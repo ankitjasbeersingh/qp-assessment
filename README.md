@@ -13,7 +13,6 @@ Use Docker Compose to build and run the application and MongoDB containers:
 docker-compose up --build
 ```
 Verify the Application is Running:
-After running the above command, Docker Compose will build the Docker images and start the containers. You should see output in your terminal indicating that the application has started.
 Access the application by opening your browser and navigating to http://localhost:3000.
 
 Testing the Endpoints
@@ -21,7 +20,9 @@ Testing the Endpoints
 Add a New Grocery Item:
 
 Method: POST
+
 URL: http://localhost:3000/admin/grocery
+
 Body (JSON):
 ```json
 {
@@ -34,7 +35,9 @@ Body (JSON):
 View Existing Grocery Items:
 
 Method: GET
+
 URL: http://localhost:3000/admin/grocery
+
 Update Grocery Item:
 
 Method: PUT
