@@ -15,9 +15,9 @@ docker-compose up --build
 Verify the Application is Running:
 Access the application by opening your browser and navigating to http://localhost:3000.
 
-Testing the Endpoints
+### Testing the Endpoints
 
-Add a New Grocery Item:
+#### Add a New Grocery Item:
 
 Method: POST
 
@@ -32,16 +32,18 @@ Body (JSON):
 }
 ```
 
-View Existing Grocery Items:
+#### View Existing Grocery Items:
 
 Method: GET
 
 URL: http://localhost:3000/admin/grocery
 
-Update Grocery Item:
+#### Update Grocery Item:
 
 Method: PUT
+
 URL: http://localhost:3000/admin/grocery/<grocery_id>
+
 Body (JSON):
 ```json
 {
@@ -51,7 +53,7 @@ Body (JSON):
 }
 ```
 
-Remove Grocery Item:
+#### Remove Grocery Item:
 
 Method: DELETE
 URL: http://localhost:3000/admin/grocery/<grocery_id>
@@ -60,7 +62,8 @@ View Available Grocery Items:
 Method: GET
 URL: http://localhost:3000/user/grocery
 
-Book Multiple Grocery Items:
+
+#### Book Multiple Grocery Items:
 
 Method: POST
 URL: http://localhost:3000/user/order
