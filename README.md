@@ -2,7 +2,7 @@ Clone the Repository (if applicable):
 
 If this code is in a repository, clone it to your local machine:
 ```console
-git clone <repository_url>
+git clone [<repository_url>](https://github.com/ankitjasbeersingh/qp-assessment.git)
 cd grocery-booking-api
 ```
 
